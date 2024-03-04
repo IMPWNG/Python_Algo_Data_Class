@@ -1,6 +1,6 @@
 # Python Course
 
-## Class 1
+## Class 1 - Sorting Algorithms
 
 ### Lesson Overview
 - Introduction to Sorting Algorithms
@@ -8,17 +8,15 @@
 - Implementing the Bubble Sort Algorithm
 - Real-World Application: Sorting User Data for an API Endpoint
 
-#### Introduction to Sorting Algorithms
-
-1. Introduction to Sorting Algorithms
+#### 1 - Introduction to Sorting Algorithms
 
 Sorting algorithms are methods for reordering elements in a list or array according to a specific relationship among the elements (e.g., ascending or descending for numerical values, alphabetical order for strings). Common sorting algorithms include Bubble Sort, Merge Sort, Quick Sort, and Insertion Sort. Each has its own set of advantages and use cases depending on the size and nature of the data set.
 
-2. Understanding Lists in Python
+#### 2 - Understanding Lists in Python
 
 In Python, a list is a mutable, ordered sequence of elements. Lists are versatile and can hold a mixture of data types, including integers, strings, and even other lists. They are fundamental in data structure manipulation and a key component in algorithm implementation.
 
-3. Implementing the Bubble Sort Algorithm
+#### 3 - Implementing the Bubble Sort Algorithm
 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
@@ -74,7 +72,7 @@ After we've walked down the line enough times and made all the necessary swaps, 
 
 So, inside our big walk down the line (the first loop), we have a smaller walk (the second loop) where we're checking each pair of blocks and making sure they're in the right order by swapping them if needed. And with each big walk, we have to check fewer and fewer blocks because the biggest numbers are finding their way to the end of the line, just like bubbles floating up to the surface of the water. That's why it's called "Bubble Sort"!
 
-4. Real-World Application: Sorting User Data for an API Endpoint -> Check the file user_sorting.py
+#### 4 - Real-World Application: Sorting User Data for an API Endpoint -> Check the file user_sorting.py
 
 Imagine you're developing a backend for a user management system, and you need to create an API endpoint that returns a list of users sorted by their registration date.
 
