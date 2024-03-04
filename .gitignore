@@ -111,6 +111,10 @@ ENV/
 env.bak/
 venv.bak/
 
+# If your venv is inside another directory, adjust the path like so:
+Class1_SortingAlgorithms/venv/
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
