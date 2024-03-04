@@ -71,7 +71,7 @@ print(squares) # Output: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
 A hash table is a data structure that stores key-value pairs. It uses a hash function to compute an index into an array of slots, from which the desired value can be found. This makes data retrieval extremely efficient, ideally approaching O(1) time complexity.
 
-> [!TIP] Imagine you have a giant library with lots of books, but it doesn't have any system to find books quickly. If you want a specific book, you might have to look through every single book, which could take forever! A hash table is like a magical library system that helps you find your books super fast.
+> [SIMPLE] Imagine you have a giant library with lots of books, but it doesn't have any system to find books quickly. If you want a specific book, you might have to look through every single book, which could take forever! A hash table is like a magical library system that helps you find your books super fast.
 
 >Let's say every book has a unique name. The hash table uses a special magic spell (called a "hash function") on the name of the book you're looking for. This spell doesn't turn the book into a frog or anything like that; instead, it turns the name into a special number. This number is very special because it tells you exactly where the book is on the shelf.
 
@@ -132,42 +132,43 @@ print(cache.get_user_profile("Alice")) # Returns from the cache
 ### 5. Exercise comprehension [basic_operations.py](https://github.com/IMPWNG/Python_Algo_Data_Class/blob/main/Class2_Dictionaries%20_HashTables/basic_operations.py)
 
 
-Imagine our book database is like a big treasure chest full of different magical books. Each book has a special number, called an "ID," that is unique just like a magic spell. We keep all these books in our treasure chest so we can find and read them whenever we want.
+> [SIMPLE] Imagine our book database is like a big treasure chest full of different magical books. Each book has a special number, called an "ID," that is unique just like a magic spell. We keep all these books in our treasure chest so we can find and read them whenever we want.
 
-1. The New Magical Chest: BookDatabase
 
-In this new version of our treasure chest, called BookDatabase, we made some cool improvements to make finding and organizing our magical books even easier and faster!
+>1. The New Magical Chest: BookDatabase
 
-2. Loading the Treasure Chest
+>In this new version of our treasure chest, called BookDatabase, we made some cool improvements to make finding and organizing our magical books even easier and faster!
 
-When we first open our treasure chest (__init__), we use a special spell (load_database) to see all the books inside it. We put all these books into our magic bag (self.books) so we can carry them around easily and don't have to open the chest every time we want a book. This is much faster because opening and closing the chest a lot can be really slow!
+>2. Loading the Treasure Chest
 
-3. Adding New Magical Books
+>When we first open our treasure chest (__init__), we use a special spell (load_database) to see all the books inside it. We put all these books into our magic bag (self.books) so we can carry them around easily and don't have to open the chest every time we want a book. This is much faster because opening and closing the chest a lot can be really slow!
 
-When we want to add a new book (add_book), we first check to make sure we don't already have a book with the same magic spell (ID). If we don't, we put the new book in our magic bag. This way, we keep all our books unique and don't mix up their spells.
+>3. Adding New Magical Books
 
-4. Finding a Magical Book
+>When we want to add a new book (add_book), we first check to make sure we don't already have a book with the same magic spell (ID). If we don't, we put the new book in our magic bag. This way, we keep all our books unique and don't mix up their spells.
 
-If we want to find a specific book (find_book_by_id), we just look at the spell (ID) on the book and instantly find it in our magic bag. It's like having a magic map that shows us exactly where the book is, without having to dig through the whole chest!
+>4. Finding a Magical Book
 
-5. Removing a Magical Book
+>If we want to find a specific book (find_book_by_id), we just look at the spell (ID) on the book and instantly find it in our magic bag. It's like having a magic map that shows us exactly where the book is, without having to dig through the whole chest!
 
-Sometimes we might need to take a book out of our treasure chest (delete_book). We use the book's special spell (ID) to find it quickly in our magic bag and then take it out. If we can't find the book we're looking for, we know it's not there, and we don't have to worry about it.
+>5. Removing a Magical Book
 
-6. Showing All Our Magical Books
+>Sometimes we might need to take a book out of our treasure chest (delete_book). We use the book's special spell (ID) to find it quickly in our magic bag and then take it out. If we can't find the book we're looking for, we know it's not there, and we don't have to worry about it.
 
-We can also spread out all our books on the floor to see them all at once (list_books). This way, we can admire our collection and easily see all the magical spells (IDs) and stories (titles and authors) we have.
+>6. Showing All Our Magical Books
 
-7. Saving Our Magical Books
+>We can also spread out all our books on the floor to see them all at once (list_books). This way, we can admire our collection and easily see all the magical spells (IDs) and stories (titles and authors) we have.
 
-After we're done playing with our books, we put them all back in the treasure chest and lock it up (save_database). This way, they're safe and sound until we want to play again. We only do this once, even if we played with a lot of books, so it doesn't take too much time.
+>7. Saving Our Magical Books
 
-- Why Is This Treasure Chest Better?
+>After we're done playing with our books, we put them all back in the treasure chest and lock it up (save_database). This way, they're safe and sound until we want to play again. We only do this once, even if we played with a lot of books, so it doesn't take too much time.
 
-Our new treasure chest is better because:
+>- Why Is This Treasure Chest Better?
 
-- It's Faster: We don't have to open and close it every time we want a book. We just take all the books out once, play with them, and put them back when we're done.
+>Our new treasure chest is better because:
 
-- No More Waiting: Finding and removing books is like magic now because we don't have to search through the whole chest. We just use the magic spells (IDs) to instantly find what we want.
+>- It's Faster: We don't have to open and close it every time we want a book. We just take all the books out once, play with them, and put them back when we're done.
 
-- Keeping It Tidy: We make sure every book has its own unique spell, so there are no mix-ups, and our treasure chest stays nice and organized.
+>- No More Waiting: Finding and removing books is like magic now because we don't have to search through the whole chest. We just use the magic spells (IDs) to instantly find what we want.
+
+>- Keeping It Tidy: We make sure every book has its own unique spell, so there are no mix-ups, and our treasure chest stays nice and organized.
