@@ -38,7 +38,7 @@ def bubble_sort(arr):
 Imagine you have a line of toy blocks, each with a number on it. We want to arrange these blocks so that their numbers go from smallest to biggest, from left to right.
 
 ```python 
-    def bubble_sort(arr)
+def bubble_sort(arr)
 ```
 This is like saying, "We have a game called 'bubble sort,' and we need our line of blocks (which we're calling arr) to play this game."
 
