@@ -129,7 +129,8 @@ print(cache.get_user_profile("Alice")) # Returns from the cache
 
 ```
 
-### 5. Exercise comprehension (basic_operations.py)
+### 5. Exercise comprehension [basic_operations.py](https://github.com/IMPWNG/Python_Algo_Data_Class/blob/main/Class2_Dictionaries%20_HashTables/basic_operations.py)
+
 
 Imagine our book database is like a big treasure chest full of different magical books. Each book has a special number, called an "ID," that is unique just like a magic spell. We keep all these books in our treasure chest so we can find and read them whenever we want.
 

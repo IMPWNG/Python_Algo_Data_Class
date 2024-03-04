@@ -72,7 +72,7 @@ After we've walked down the line enough times and made all the necessary swaps, 
 
 So, inside our big walk down the line (the first loop), we have a smaller walk (the second loop) where we're checking each pair of blocks and making sure they're in the right order by swapping them if needed. And with each big walk, we have to check fewer and fewer blocks because the biggest numbers are finding their way to the end of the line, just like bubbles floating up to the surface of the water. That's why it's called "Bubble Sort"!
 
-#### 4 - Real-World Application: Sorting User Data for an API Endpoint -> Check the file [sorting_user_data.py](sorting_user_data.py)
+#### 4 - Real-World Application: Sorting User Data for an API Endpoint -> Check the file [sorting_user_data.py](https://github.com/IMPWNG/Python_Algo_Data_Class/blob/main/Class1_SortingAlgorithms/user_sorting.py)
 
 Imagine you're developing a backend for a user management system, and you need to create an API endpoint that returns a list of users sorted by their registration date.
 
