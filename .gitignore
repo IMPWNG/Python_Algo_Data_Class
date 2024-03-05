@@ -114,6 +114,7 @@ venv.bak/
 # Add .env to .gitignore from Class2_Dictionaries _HashTables
 /Class2_Dictionaries_HashTables/.env
 /Class2_Dictionaries_HashTables/venvClass2
+/Class3_DbManagement_Python/venvClass3
 
 
 # If your venv is inside another directory, adjust the path like so:
