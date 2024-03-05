@@ -2,6 +2,8 @@
 
 - [ ] : Create a real life exemple of cache system with a weather API. Implement a caching system that stores weather data for different cities. When a user requests the weather for a city, the application should check the cache first. If the data is in the cache, return it immediately. If not, fetch it from the weather API, store it in the cache, and then return it.
 
+The cache is not working. Try to find why and fix it. ()
+
 ## Class 2 - Dictionaries & Hash Tables
 
 ### Lesson Overview

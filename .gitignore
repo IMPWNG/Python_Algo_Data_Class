@@ -111,6 +111,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Add .env to .gitignore from Class2_Dictionaries _HashTables
+/Class2_Dictionaries_HashTables/.env
+/Class2_Dictionaries_HashTables/venvClass2
+
+
 # If your venv is inside another directory, adjust the path like so:
 Class1_SortingAlgorithms/venv/
 
