@@ -1,0 +1,19 @@
+{
+  "socialNetworks": [
+    {
+      "Alice": ["Bob", "Claire", "Frank"],
+      "Bob": ["Alice", "Dennis", "Esther"],
+      "Claire": ["Alice", "Frank"],
+      "Dennis": ["Bob", "George", "Esther"],
+      "Esther": ["Bob", "Dennis"],
+      "Frank": ["Alice", "Claire"],
+      "George": ["Dennis"],
+      "Hannah": [],
+      "Ivan": ["Jenny, Frank, Alice"],
+      "Jenny": ["Ivan, Bob, Claire, Dennis"],
+      "Karl": ["Lenny, Frank, Alice"],
+      "Lenny": ["Karl, Bob, Claire, Dennis"],
+      "Manny": ["Hannah, Frank, Alice"]
+    }
+  ]
+}

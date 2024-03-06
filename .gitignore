@@ -115,6 +115,7 @@ venv.bak/
 /Class2_Dictionaries_HashTables/.env
 /Class2_Dictionaries_HashTables/venvClass2
 /Class3_DbManagement_Python/venvClass3
+/Class4_GraphAlgoritms_BFS/venvClass4
 
 
 # If your venv is inside another directory, adjust the path like so:
