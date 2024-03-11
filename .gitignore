@@ -118,6 +118,7 @@ venv.bak/
 /Class4_GraphAlgoritms_BFS/venvClass4
 /Class5_BackEnd_FrontEnd/venvClass5
 /Class6_LinkedLists/venvClass6
+/Class7_Recursion_DynamicProgramming/venvClass7
 
 
 # If your venv is inside another directory, adjust the path like so:
